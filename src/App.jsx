@@ -3,6 +3,8 @@ import Hero from "./components/Hero/Hero";
 import Compagnies from "./components/Compagnies/Compagnies";
 import Residencies from "./components/Residencies/Residencies";
 import './App.css'
+import Value from "./components/Value/Value";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       </div>
       <Compagnies />
       <Residencies />
+      <Value />
+      <Contact />
     </div>
   );
 }
