@@ -1,5 +1,5 @@
 .v-container {
-  max-width: 100%;
+  /*max-width: 100%;*/
 }
 
 .v-container .image-container {
@@ -13,6 +13,13 @@
 .v-right {
   gap: 0.5rem;
   width: 100%;
+}
+
+.v-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .accordion {

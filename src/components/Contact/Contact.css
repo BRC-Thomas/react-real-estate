@@ -8,6 +8,8 @@
 
 .c-right {
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .c-left {
@@ -15,6 +17,7 @@
 }
 
 .contactModes {
+  margin: 0 auto;
   margin-top: 2rem;
   gap: 1rem;
 }
