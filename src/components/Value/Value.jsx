@@ -39,7 +39,7 @@ export default function Value() {
             preExpanded={[0]}
           >
             {data.map((item, index) => {
-              const [className, setClassName] = useState(null);
+              const [className, setClassName] = useState("collapsed");
 
               return (
                 <AccordionItem

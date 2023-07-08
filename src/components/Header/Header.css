@@ -1,5 +1,7 @@
 .h-wrapper {
   color: white;
+  padding: 1rem 1.5rem;
+  z-index: 20;
 }
 
 .h-container {
@@ -12,6 +14,36 @@
   gap: 2rem;
 }
 
-.h-menu>*:hover{
+.h-menu>*:hover {
   cursor: pointer;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .h-menu {
+    z-index: 20;
+    flex-direction: column;
+    color: var(--black);
+    position: absolute;
+    top: 3rem;
+    right: 4rem;
+    background: #FFF;
+    font-weight: 500;
+    gap: 2rem;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease-in;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .h-menu>*:hover {
+    cursor: pointer;
+  }
 }
